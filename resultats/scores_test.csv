@@ -1,0 +1,13 @@
+Scénario,Modèle,Seuil d'alerte,PR-AUC,ROC-AUC,Brier,POD,FAR,CSI
+Sans prévision météo,Règle naïve,0.790,0.318,0.913,0.072,0.535,0.724,0.223
+Sans prévision météo,Régression logistique,0.110,0.437,0.944,0.007,0.623,0.720,0.239
+Sans prévision météo,Forêt aléatoire,0.110,0.513,0.961,0.006,0.654,0.662,0.287
+Sans prévision météo,XGBoost,0.160,0.537,0.969,0.006,0.542,0.542,0.330
+Prévision réaliste,Règle naïve,0.790,0.318,0.913,0.072,0.535,0.724,0.223
+Prévision réaliste,Régression logistique,0.110,0.488,0.968,0.007,0.646,0.697,0.260
+Prévision réaliste,Forêt aléatoire,0.100,0.540,0.985,0.006,0.781,0.668,0.304
+Prévision réaliste,XGBoost,0.090,0.602,0.986,0.006,0.708,0.605,0.339
+Prévision parfaite,Règle naïve,0.790,0.318,0.913,0.072,0.535,0.724,0.223
+Prévision parfaite,Régression logistique,0.100,0.591,0.984,0.006,0.769,0.660,0.308
+Prévision parfaite,Forêt aléatoire,0.130,0.608,0.990,0.006,0.777,0.587,0.369
+Prévision parfaite,XGBoost,0.100,0.676,0.992,0.005,0.769,0.541,0.403
